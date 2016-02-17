@@ -14,8 +14,6 @@
 		3916DAD41C74781400EEBCD0 /* Guess_Who.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3916DAD21C74781400EEBCD0 /* Guess_Who.xcdatamodeld */; };
 		3916DAD61C74781400EEBCD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3916DAD51C74781400EEBCD0 /* Assets.xcassets */; };
 		3916DAD91C74781400EEBCD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3916DAD71C74781400EEBCD0 /* LaunchScreen.storyboard */; };
-		3916DAE41C74781400EEBCD0 /* Guess_WhoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3916DAE31C74781400EEBCD0 /* Guess_WhoTests.m */; };
-		3916DAEF1C74781400EEBCD0 /* Guess_WhoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3916DAEE1C74781400EEBCD0 /* Guess_WhoUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,11 +46,7 @@
 		3916DAD81C74781400EEBCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3916DADA1C74781400EEBCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3916DADF1C74781400EEBCD0 /* Guess-WhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess-WhoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3916DAE31C74781400EEBCD0 /* Guess_WhoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guess_WhoTests.m; sourceTree = "<group>"; };
-		3916DAE51C74781400EEBCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3916DAEA1C74781400EEBCD0 /* Guess-WhoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Guess-WhoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3916DAEE1C74781400EEBCD0 /* Guess_WhoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guess_WhoUITests.m; sourceTree = "<group>"; };
-		3916DAF01C74781400EEBCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				3916DAC51C74781300EEBCD0 /* Guess-Who */,
-				3916DAE21C74781400EEBCD0 /* Guess-WhoTests */,
-				3916DAED1C74781400EEBCD0 /* Guess-WhoUITests */,
 				3916DAC41C74781300EEBCD0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -123,24 +115,6 @@
 				3916DAC71C74781300EEBCD0 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3916DAE21C74781400EEBCD0 /* Guess-WhoTests */ = {
-			isa = PBXGroup;
-			children = (
-				3916DAE31C74781400EEBCD0 /* Guess_WhoTests.m */,
-				3916DAE51C74781400EEBCD0 /* Info.plist */,
-			);
-			path = "Guess-WhoTests";
-			sourceTree = "<group>";
-		};
-		3916DAED1C74781400EEBCD0 /* Guess-WhoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3916DAEE1C74781400EEBCD0 /* Guess_WhoUITests.m */,
-				3916DAF01C74781400EEBCD0 /* Info.plist */,
-			);
-			path = "Guess-WhoUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3916DAE41C74781400EEBCD0 /* Guess_WhoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3916DAEF1C74781400EEBCD0 /* Guess_WhoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +474,7 @@
 				3916DAF51C74781400EEBCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3916DAF61C74781400EEBCD0 /* Build configuration list for PBXNativeTarget "Guess-WhoTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +483,7 @@
 				3916DAF81C74781400EEBCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3916DAF91C74781400EEBCD0 /* Build configuration list for PBXNativeTarget "Guess-WhoUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +492,7 @@
 				3916DAFB1C74781400EEBCD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
